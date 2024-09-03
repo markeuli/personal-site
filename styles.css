@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    background-color: #e8e9e3;
+}
+
+p {
+    font-family: "Nanum Gothic", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#background {
+    position: fixed;
+    height: 100%;
+    top:0;
+    right: 0;
+    z-index: -1;
+    }
+
+section {
+    height: 90vh;
+    width: 75%;
+    margin-top: 5vh;
+    margin-left: 5%;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #93a88c;
+    border: solid black 1px 
+}
+
+#sec-1 {
+    background-color: transparent;
+    justify-content: center;
+    border: none;
+}
+
+#title-name {
+    font-family: "Crimson Text", system-ui;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3em;
+}
+
+#contact-section {
+    height: 60vh;
+}
+
+.section-head {
+    background-color: black;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+.section-head-title {
+    font-family: "Crimson Text", system-ui;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 3em;
+    color: white;
+}
+
+.description {
+    font-family: "Nanum Gothic", system-ui;
+    font-weight: 700;
+    font-style: normal;
+      
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height:75%;
+}
+
+.first-item {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    display:inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon {
+    background-color: #e8e9e3;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+        width: 70%
+    }
+}
+
+.second-item{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.third-item {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    border-right: solid 1px;
+    border-left: solid 1px;
+}
+
+.fourth-item {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.profile-pic {
+    width: 15rem;
+    height: 10rem;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#contact-details {
+    width: 50%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-size: 25px;
+    padding-left: 10%;
+    border-right: solid 1px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+footer{
+    margin: 10px;
+}
