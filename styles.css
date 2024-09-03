@@ -102,6 +102,24 @@ section {
     }
 }
 
+button {
+    border: none;
+    background-color: #93a88c;
+    border-radius: 20px;
+    height: 30px;
+    
+    
+    font-family: "Nanum Gothic", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+button:hover {
+    background-color: #213325;
+    color: lightgray;
+}
+
 .second-item{
     grid-column: 1 / 2;
     grid-row: 2 / 3;
